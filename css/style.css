@@ -1,0 +1,66 @@
+button {
+  background: orange;
+  margin-top: 15px;
+  border-radius: 20px;
+  border: none;
+  padding: 15px 25px;
+  color: white;
+  font-size: 12px;
+}
+
+.nav-item a {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  transition: 0.3s;
+}
+
+.nav-item a:hover {
+  color: orange !important;
+}
+
+.nav-item .active {
+  color: white !important;
+}
+
+.banner-back {
+  background: url("../assets/images/1\ \(1\).jpg") center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgba(51, 51, 51, 0.87);
+}
+.banner-back:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.bg-overlay:before {
+  background-color: rgba(51, 51, 51, 0.87);
+}
+
+/* Footer */
+.icondiv ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.icondiv ul li {
+  padding: 10px;
+  list-style: none;
+  margin-right: 20px;
+}
+i {
+  color: gray;
+}
+.cont-foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
